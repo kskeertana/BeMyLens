@@ -1,0 +1,86 @@
+server/*.cfg
+server/*.weights
+server/*.names
+
+# === Node Modules ===
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# === Build Output ===
+dist/
+build/
+client/build/
+server/build/
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Dependency Lock Files (optional, keep one) ===
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === Runtime Data ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === Coverage Reports ===
+coverage/
+client/coverage/
+server/coverage/
+.nyc_output/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Misc System Files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+
+# === IDE / Editor Folders ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Test Output ===
+jest-test-results.json
+test-report.xml
+
+# === Parcel / Webpack Cache ===
+.cache/
+.parcel-cache/
+client/.parcel-cache/
+client/.next/
+.next/
+out/
+
+# === Storybook ===
+storybook-static/
+
+# === Docker ===
+docker-compose.override.yml
+*.local.yml
+
+# === Firebase / Vercel / Netlify ===
+.firebaserc
+.firebase/
+.vercel/
+.netlify/
+
+# === Custom Assets (optional) ===
+client/public/assets/tmp/
+client/public/assets/raw/

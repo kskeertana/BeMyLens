@@ -1,0 +1,6 @@
+venv/
+*.pyc
+__pycache__/
+.yolov3.cfg
+.yolov3.weights
+.coco.names
