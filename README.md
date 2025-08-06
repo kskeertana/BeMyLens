@@ -69,6 +69,13 @@ Open the browser and navigate to:
 - Launch Flask (`http://localhost:5000`) and React (`http://localhost:3000`).
 - Navigate to `/` and click **Start** to enter the main interface.
 - The app will detect objects and speak them aloud every second.
+## 🖼️ Demo Screenshots
+
+<p align="center">
+  <img src="1.png" alt="Start Screen" height="300px" style="margin-right: 10px;" />
+  <img src="2.jpg" alt="Detection Result" height="300px" />
+</p>
+
 
 ---
 
